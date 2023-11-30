@@ -425,3 +425,9 @@ main {
     align-items: center;
     padding: 0 10px;
 }
+.navbar-link {
+    color: var(--light-gray);
+    font-size: var(--fs-8);
+    padding: 20px 7px;
+    transition: color var(--transition-1);
+}
