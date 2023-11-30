@@ -417,3 +417,11 @@ main {
     box-shadow: var(--shadow-2);
     z-index: 5;
 }
+
+.navbar-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+}
