@@ -112,3 +112,8 @@ input, textarea {
     font: inherit;
 }
 
+
+::selection {
+    background: var(--orange-yellow-crayola);
+    color: var(--smoky-black);
+}
