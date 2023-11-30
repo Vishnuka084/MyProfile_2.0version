@@ -1,0 +1,7 @@
+:root {
+    --bg-gradient-onyx: linear-gradient(
+            to bottom right,
+            hsl(240, 1%, 25%) 3%,
+            hsl(0, 0%, 19%) 97%
+    );
+}
