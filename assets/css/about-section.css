@@ -6,3 +6,30 @@
     font-weight: var(--fw-300);
     line-height: 1.6;
 }
+
+.about-text p { margin-bottom: 15px; }
+
+
+
+/**
+ * #service
+ */
+
+.service { margin-bottom: 35px; }
+
+.service-title { margin-bottom: 20px; }
+
+.service-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.service-item {
+    position: relative;
+    background: var(--border-gradient-onyx);
+    padding: 20px;
+    border-radius: 14px;
+    box-shadow: var(--shadow-2);
+    z-index: 1;
+}
