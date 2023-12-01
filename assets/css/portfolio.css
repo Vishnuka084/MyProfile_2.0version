@@ -37,3 +37,9 @@
     transition: 0.15s ease-in-out;
 }
 
+
+.filter-select.active + .select-list {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
+}
