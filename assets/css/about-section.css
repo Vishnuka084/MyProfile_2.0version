@@ -33,3 +33,13 @@
     box-shadow: var(--shadow-2);
     z-index: 1;
 }
+
+.service-item::before {
+    content: "";
+    position: absolute;
+    inset: 1px;
+    background: var(--bg-gradient-jet);
+    border-radius: inherit;
+    z-index: -1;
+}
+
