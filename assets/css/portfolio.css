@@ -18,3 +18,22 @@
     font-size: var(--fs-6);
     font-weight: var(--fw-300);
 }
+
+
+.filter-select.active .select-icon { transform: rotate(0.5turn); }
+
+.select-list {
+    background: var(--eerie-black-2);
+    position: absolute;
+    top: calc(100% + 6px);
+    width: 100%;
+    padding: 6px;
+    border: 1px solid var(--jet);
+    border-radius: 14px;
+    z-index: 2;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: 0.15s ease-in-out;
+}
+
