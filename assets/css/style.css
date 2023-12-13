@@ -462,8 +462,6 @@ main {
     .blog-banner-box { height: auto; }
 
 }
-
-
 @media (min-width: 580px) {
 
     /**
@@ -942,11 +940,6 @@ main {
 
 }
 @media (min-width: 1250px) {
-
-    /**
-     * RESET
-     */
-
     body::-webkit-scrollbar { width: 20px; }
 
     body::-webkit-scrollbar-track { background: var(--smoky-black); }
@@ -965,19 +958,12 @@ main {
 
 
 
-    /**
-     * REUSED STYLE
-     */
-
     .sidebar, article { width: auto; }
 
     article { min-height: 100%; }
 
 
 
-    /**
-     * MAIN
-     */
 
     main {
         max-width: 1200px;
@@ -995,10 +981,6 @@ main {
     }
 
 
-
-    /**
-     * SIDEBAR
-     */
 
     .sidebar {
         position: sticky;
@@ -1048,11 +1030,6 @@ main {
 
     .social-list { justify-content: center; }
 
-
-
-    /**
-       * RESUME
-       */
 
     .timeline-text { max-width: 700px; }
 
