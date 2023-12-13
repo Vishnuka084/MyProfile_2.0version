@@ -446,17 +446,9 @@ main {
 
 @media (min-width: 450px) {
 
-    /**
-     * client
-     */
 
     .clients-item { min-width: calc(33.33% - 10px); }
 
-
-
-    /**
-     * #PORTFOLIO, BLOG
-     */
 
     .project-img,
     .blog-banner-box { height: auto; }
@@ -464,15 +456,9 @@ main {
 }
 @media (min-width: 580px) {
 
-    /**
-     * CUSTOM PROPERTY
-     */
+
 
     :root {
-
-        /**
-         * typography
-         */
 
         --fs-1: 32px;
         --fs-2: 24px;
@@ -485,10 +471,6 @@ main {
     }
 
 
-
-    /**
-     * #REUSED STYLE
-     */
 
     .sidebar, article {
         width: 520px;
@@ -515,20 +497,11 @@ main {
 
 
 
-    /**
-     * #MAIN
-     */
-
     main {
         margin-top: 60px;
         margin-bottom: 100px;
     }
 
-
-
-    /**
-     * #SIDEBAR
-     */
 
     .sidebar {
         max-height: 180px;
@@ -571,9 +544,6 @@ main {
 
 
 
-    /**
-     * #NAVBAR
-     */
 
     .navbar { border-radius: 20px 20px 0 0; }
 
@@ -583,15 +553,10 @@ main {
 
 
 
-    /**
-     * #ABOUT
-     */
-
     .about .article-title { margin-bottom: 20px; }
 
     .about-text { margin-bottom: 40px; }
 
-    /* service */
 
     .service-item {
         display: flex;
@@ -608,7 +573,7 @@ main {
 
     .service-content-box { text-align: left; }
 
-    /* testimonials */
+
 
     .testimonials-title { margin-bottom: 25px; }
 
@@ -744,19 +709,11 @@ main {
 }
 @media (min-width: 768px) {
 
-    /**
-     * REUSED STYLE
-     */
 
     .sidebar, article { width: 700px; }
 
     .has-scrollbar::-webkit-scrollbar-button { width: 100px; }
 
-
-
-    /**
-     * SIDEBAR
-     */
 
     .contacts-list {
         grid-template-columns: 1fr 1fr;
@@ -765,17 +722,7 @@ main {
 
 
 
-    /**
-     * NAVBAR
-     */
-
     .navbar-link { --fs-8: 15px; }
-
-
-
-    /**
-     * ABOUT
-     */
 
     /* testimonials modal */
 
@@ -786,11 +733,6 @@ main {
 
     .modal-avatar-box img { width: 80px; }
 
-
-
-    /**
-     * PORTFOLIO
-     */
 
     .article-title { padding-bottom: 20px; }
 
@@ -835,15 +777,10 @@ main {
 }
 @media (min-width: 1024px) {
 
-    /**
-     * CUSTOM PROPERTY
-     */
+
 
     :root {
 
-        /**
-        * shadow
-        */
 
         --shadow-1: -4px 8px 24px hsla(0, 0%, 0%, 0.125);
         --shadow-2: 0 16px 30px hsla(0, 0%, 0%, 0.125);
@@ -852,21 +789,11 @@ main {
     }
 
 
-
-    /**
-     * REUSED STYLE
-     */
-
     .sidebar, article {
         width: 950px;
         box-shadow: var(--shadow-5);
     }
 
-
-
-    /**
-     * MAIN
-     */
 
     main { margin-bottom: 60px; }
 
@@ -877,10 +804,6 @@ main {
     }
 
 
-
-    /**
-     * NAVBAR
-     */
 
     .navbar {
         position: absolute;
@@ -901,14 +824,6 @@ main {
 
     .navbar-link { font-weight: var(--fw-500); }
 
-
-
-    /**
-     * ABOUT
-     */
-
-    /* service */
-
     .service-list {
         grid-template-columns: 1fr 1fr;
         gap: 20px 25px;
@@ -923,18 +838,8 @@ main {
     .clients-item { min-width: calc(25% - 38px); }
 
 
-
-    /**
-     * PORTFOLIO
-     */
-
     .project-list { grid-template-columns: repeat(3, 1fr); }
 
-
-
-    /**
-     * BLOG
-     */
 
     .blog-banner-box { height: 230px; }
 
