@@ -438,3 +438,27 @@ main {
 .navbar-link.active { color: var(--orange-yellow-crayola); }
 
 
+
+
+/* ===================================================
+                  RESPONSIVE SECTION
+   =================================================== */
+
+@media (min-width: 450px) {
+
+    /**
+     * client
+     */
+
+    .clients-item { min-width: calc(33.33% - 10px); }
+
+
+
+    /**
+     * #PORTFOLIO, BLOG
+     */
+
+    .project-img,
+    .blog-banner-box { height: auto; }
+
+}
