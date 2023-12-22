@@ -1,3 +1,4 @@
+
 .filter-list { display: none; }
 
 .filter-select-box {
@@ -19,7 +20,6 @@
     font-weight: var(--fw-300);
 }
 
-
 .filter-select.active .select-icon { transform: rotate(0.5turn); }
 
 .select-list {
@@ -36,7 +36,6 @@
     pointer-events: none;
     transition: 0.15s ease-in-out;
 }
-
 
 .filter-select.active + .select-list {
     opacity: 1;
@@ -150,5 +149,4 @@
     font-size: var(--fs-6);
     font-weight: var(--fw-300);
 }
-
 
